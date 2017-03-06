@@ -26,5 +26,10 @@ namespace NautaFootball.Controllers
 
             return View();
         }
+
+        public ActionResult ProcessEmails()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

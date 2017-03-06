@@ -5,7 +5,7 @@ namespace NautaFootball.Emails
 {
     public class Email
     {
-        public int Id { get; }
+        public int Id { get; private set; }
         public DateTime Date { get; private set; }
         public string Content { get; private set; }
 

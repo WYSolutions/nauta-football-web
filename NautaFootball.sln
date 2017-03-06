@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Emails", "Emails", "{338E8B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NautaFootball.Emails", "src\NautaFootball.Emails\NautaFootball.Emails.csproj", "{DE0ACA17-2A9E-45D5-BF86-8A32D8967368}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{140DE3C8-DA32-4E69-8084-09FC1DC430AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NautaFootball.Users", "src\NautaFootball.Users\NautaFootball.Users.csproj", "{2B50EC7A-1A36-4317-AD64-9752E3AEA548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NautaFootball.Data", "src\NautaFootball.Data\NautaFootball.Data.csproj", "{78357C3F-509B-4864-B550-2F0047822C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D8AFCCBA-2700-48AC-B58C-04E206E26265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NautaFootball.Core", "src\NautaFootball.Core\NautaFootball.Core.csproj", "{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +41,18 @@ Global
 		{DE0ACA17-2A9E-45D5-BF86-8A32D8967368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0ACA17-2A9E-45D5-BF86-8A32D8967368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0ACA17-2A9E-45D5-BF86-8A32D8967368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B50EC7A-1A36-4317-AD64-9752E3AEA548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B50EC7A-1A36-4317-AD64-9752E3AEA548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B50EC7A-1A36-4317-AD64-9752E3AEA548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B50EC7A-1A36-4317-AD64-9752E3AEA548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78357C3F-509B-4864-B550-2F0047822C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78357C3F-509B-4864-B550-2F0047822C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78357C3F-509B-4864-B550-2F0047822C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78357C3F-509B-4864-B550-2F0047822C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +60,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{455F4F00-60D5-411B-BE15-F6A53A048FAF} = {C2408046-F827-4597-A07D-5724460D43A3}
 		{DE0ACA17-2A9E-45D5-BF86-8A32D8967368} = {338E8BBC-C2E9-471E-8AD1-7C0FEBF070CD}
+		{2B50EC7A-1A36-4317-AD64-9752E3AEA548} = {140DE3C8-DA32-4E69-8084-09FC1DC430AB}
+		{78357C3F-509B-4864-B550-2F0047822C62} = {C2408046-F827-4597-A07D-5724460D43A3}
+		{1A8ACF9B-E599-43E0-9AF2-39C85478D3C5} = {D8AFCCBA-2700-48AC-B58C-04E206E26265}
 	EndGlobalSection
 EndGlobal

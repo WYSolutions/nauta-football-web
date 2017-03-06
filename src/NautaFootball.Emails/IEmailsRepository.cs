@@ -1,6 +1,6 @@
 ﻿namespace NautaFootball.Emails
 {
-    public interface IEmailsManager
+    public interface IEmailsRepository
     {
         void Store(Email email);
     }
